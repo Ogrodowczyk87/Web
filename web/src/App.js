@@ -6,13 +6,16 @@ import Projects from './Components/Projects.jsx';
 import Experience from './Components/Experience.jsx';
 import Navbar from './Components/Navbar.jsx';
 
+import './_main.scss'
+
+
 function App() {
   return (
     <div className="App">
       <Router>
         <Navbar />
         <Routes>
-          <Route patch="/" element={<Home />} />
+          <Route patch="/home" element={<Home />} />
           <Route patch="/projects" element={<Projects />} />
           <Route patch="/experience" element={<Experience />} />
         </Routes>
