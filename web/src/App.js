@@ -7,6 +7,7 @@ import Navbar from './Components/Navbar';
 import Education from './Components/Education';
 
 import './main.scss'
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -15,10 +16,11 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/education" element={<Education />} />
         </Routes>
+        <Footer/>
       </Router>
 
     </div>
