@@ -1,5 +1,27 @@
-.home {
-    width: 100%;
-    height: 800px;
-    color: white
+.home_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .home {
+        width: 100%;
+        height: 800px;
+        color: white;
+
+        .home_description {
+            margin-top: 200px;
+        }
+
+        .home_span {
+            color: orange;
+        }
+
+    }
+
+    .picture {
+        height: 600px;
+        width: 600px;
+        margin-right: 200px;
+        border-radius: 50px;
+    }
 }
