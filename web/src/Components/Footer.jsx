@@ -26,8 +26,8 @@ function Footer() {
       email: email,
       message: message
     }
-    
-    
+
+
     // client.create(contact)
     //   .then(() => {
     //     setLoading(false)
@@ -36,9 +36,9 @@ function Footer() {
   }
 
   return <div className="footer-cards">
+    <h2 className="head-text">Take A Coffe & Chat with Me</h2>
     <div className="footer-card">
-      <h2 className="head-text">Take A Coffe & Chat with Me</h2>
-      <AlternateEmailIcon />
+      <AlternateEmailIcon className="email" />
       <img alt="email: " />
       <a href="r.ogrodowczyk87@gmail.com" className="footer-email">r.ogrodowczyk87@gmail.com</a>
 
@@ -73,9 +73,9 @@ function Footer() {
           onClick={handleSubmit}
         >{loading ? 'Sending' : 'Send Message'}</button>
       </div>
-      ) : (  <div>
-        <h3 className="head-text">Thank you for getting in touch</h3>
-      </div>
+    ) : (<div>
+      <h3 className="head-text">Thank you for getting in touch</h3>
+    </div>
     )}
   </div>;
 }
