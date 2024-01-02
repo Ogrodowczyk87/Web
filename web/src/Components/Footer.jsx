@@ -43,7 +43,7 @@ function Footer() {
       <a href="r.ogrodowczyk87@gmail.com" className="footer-email">r.ogrodowczyk87@gmail.com</a>
 
       <div className="footer-card">
-        <PhoneAndroidIcon />
+        <PhoneAndroidIcon className="mobile"  />
         <img alt="mobile: " />
         <a href="r.ogrodowczyk87@gmail.com" className="footer-email">+44 7305736646</a>
       </div>
