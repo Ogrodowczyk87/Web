@@ -1,13 +1,13 @@
 .home_wrapper {
-    display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--background-color);
 
     .home {
         display: flex;
         width: 100%;
         height: 800px;
-        color: black;
+        color: var(--color-black);
 
         .home_description {
             margin-top: 200px;
@@ -24,5 +24,11 @@
         width: 600px;
         margin-right: 200px;
         border-radius: 50px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .home_wrapper {
+        display: flex;
     }
 }
