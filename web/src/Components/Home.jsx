@@ -1,17 +1,13 @@
 import React from "react";
-import portret from "../Assets/Images/portret.jpg"
+import portret from "../Assets/Images/my-image.jpg"
 
 function Home() {
     return <div className="home_wrapper">
         <div className="home">
             <div className="home_description">
-                <h1 className="home_title">Hello, I'm Rafal
-                    I'm a <span className="home_span">Junior Front End developer</span>
-                </h1>
-                <p className="home_subtitle">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Tenetur culpa dolorem velit, a iusto aspernatur.
-                </p>
-                <div>project bottom or animation</div>
+                <h1 className="home_title">Hello, I'm  </h1>
+                <p className="home_my-name">Rafal Ogrodowczyk</p>
+                <p className="home_description">I'm a <span className="home_span">Junior Front End developer</span></p>
             </div>
         </div>
         <div>

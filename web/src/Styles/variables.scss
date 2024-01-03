@@ -1,8 +1,10 @@
 //? Colors
 
 :root {
-    --background-color: rgba(0, 0, 0, 0.4);
+    --background-color: rgba(158, 154, 154, 0.907);
     --color-black: rgba(0, 0, 0);
+    --color-white: rgba(255, 255, 255);
+    --footer-color: rgba(185, 68, 68, 0.907);
 
 
 
@@ -10,7 +12,6 @@
     // --color-grey: #757575;
     // --color-light-grey: #F5F4FA;
     // --header-line: #ececec;
-    // --color-white: #fff;
     // --portfolio-libe: #eee;
     // --light-grey-2: #AFB1B8;
     // --backdrop-color: rgba(0, 0, 0, 0.4);
@@ -20,3 +21,6 @@
     font-family: Lora-Italic;
     src: url(../Assets/Fonts/Lora/Lora-Italic-VariableFont_wght.ttf);
 }
+
+//? containers
+
