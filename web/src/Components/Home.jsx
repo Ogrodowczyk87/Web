@@ -1,5 +1,5 @@
 import React from "react";
-import portret from "../Pictures/portret.jpg"
+import portret from "../Assets/Images/portret.jpg"
 
 function Home() {
     return <div className="home_wrapper">
