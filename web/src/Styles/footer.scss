@@ -1,10 +1,10 @@
 .footer-cards {
-    color: var(--color-black);
+    color: var(--color-white);
     display: flex;
     flex-direction: column;
     align-items: center;
     border-top: solid 2px black;
-    background-color: var(--footer-color);
+    background-color: var(--color-black);
 
     .head-text {
         margin-top: 48px;
@@ -20,7 +20,7 @@
     }
 
     .footer-email {
-        color: var(--color-black);
+        color: var(--color-white);
         font-size: 15px;
     }
 }

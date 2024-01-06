@@ -1,13 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { preLoaderAnim } from "../Assets/Animations/index"
 
-function PreLoader() {
-    return <div className="PreLoader">
-        <div className="Preloader_text">
-            <span>Devloper</span>
-            <span>Creater</span>
-            <span>Traveler</span>
+const PreLoader = () => {
+    useEffect(() => {
+        preLoaderAnim();
+    }, []);
+    return (
+        <div className="preloader">
+            <div className="texts-container">
+                <span>Developer,</span>
+                <span>Curator,</span>
+                <span>Vibes.</span>
+            </div>
         </div>
-    </div>;
-}
+    );
+};
 
 export default PreLoader;
