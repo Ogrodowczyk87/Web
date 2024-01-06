@@ -1,13 +1,12 @@
 .home_wrapper {
     justify-content: center;
     align-items: center;
-    background-color: var(--background-color);
-   width: 100%;
+    background-color: var(--color-white);
+    width: 100%;
 
 
     .home {
         display: flex;
-        width: 100%;
         height: 100%;
         color: var(--color-black);
 
@@ -27,6 +26,8 @@
     }
 
     .picture {
+        margin: auto;
+        margin-bottom: 50px;
         border-radius: 50%;
         filter: grayscale(100%);
     }
@@ -51,16 +52,17 @@
 @media only screen and (min-width: 900px) {
     .home_wrapper {
         display: flex;
+        margin-top: 130px;
+
     }
 
     .picture {
         margin-right: 50px;
-        margin-block: 15px;
     }
 }
 
 @media only screen and (min-width: 1200px) {
-   
+
     .picture {
         height: 500px;
         width: 500px;

@@ -2,9 +2,13 @@ import React, { useEffect } from "react";
 import { preLoaderAnim } from "../Assets/Animations/index"
 
 const PreLoader = () => {
+
+
     useEffect(() => {
         preLoaderAnim();
     }, []);
+
+
     return (
         <div className="preloader">
             <div className="texts-container">
