@@ -8,21 +8,24 @@ import Education from './Components/Education';
 
 import './main.scss'
 import Footer from './Components/Footer';
+import PreLoader from './Components/PreLoader';
 
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/education" element={<Education />} />
-        </Routes>
-        <Footer/>
-      </Router>
-
+      
+        <PreLoader />
+        <Router>
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/education" element={<Education />} />
+          </Routes>
+          <Footer />
+        </Router>
+      
     </div>
   );
 }
