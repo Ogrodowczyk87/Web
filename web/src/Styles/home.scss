@@ -2,6 +2,7 @@
     justify-content: center;
     align-items: center;
     background-color: var(--color-white);
+    // background-color: bisque;
     width: 100%;
     height: 100vh;
 
@@ -31,7 +32,7 @@
         margin: auto;
         margin-bottom: 50px;
         border-radius: 50%;
-        filter: grayscale(100%);
+        // filter: grayscale(100%);
 
         z-index: 1;
         animation-name: floating;
@@ -76,7 +77,7 @@
 @media only screen and (min-width: 900px) {
     .home_wrapper {
         display: flex;
-        margin-top: 130px;
+        // margin-top: 80px;
 
         .home_picture {
             margin-left: 50px;

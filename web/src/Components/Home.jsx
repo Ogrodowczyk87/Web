@@ -5,9 +5,9 @@ function Home() {
     return <div className="home_wrapper">
         <div className="home">
             <div className="home_description">
-                <h1 className="home_title">Hello, I'm  </h1>
-                <p className="home_my-name">Rafal Ogrodowczyk</p>
-                <p className="home_description">I'm a <span className="home_span">Junior Front End Developer</span></p>
+                <h1 className="home_title">Hello </h1>
+                <p className="home_my-name">  I'm Rafal Ogrodowczyk</p>
+                <p className="home_description"><span className="home_span">Junior Front End Developer</span></p>
             </div>
         </div>
         <div className="home_picture">
