@@ -36,47 +36,51 @@ function Footer() {
   }
 
   return <div className="footer-cards">
-    <h2 className="head-text">Take A Coffe & Chat with Me</h2>
-    <div className="footer-card">
-      <AlternateEmailIcon className="email" />
-      <img alt="email: " />
-      <a href="r.ogrodowczyk87@gmail.com" className="footer-email">r.ogrodowczyk87@gmail.com</a>
+    <h2 className="footer-text">Take A Coffe & Chat with Me</h2>
+    <div className="footer-wrapper">
+
 
       <div className="footer-card">
-        <PhoneAndroidIcon className="mobile"  />
-        <img alt="mobile: " />
-        <a href="r.ogrodowczyk87@gmail.com" className="footer-email">+44 7305736646</a>
+        <AlternateEmailIcon className="email" />
+        <img alt="email: " />
+        <a href="r.ogrodowczyk87@gmail.com" className="footer-email">r.ogrodowczyk87@gmail.com</a>
+
+        <div className="footer-card">
+          <PhoneAndroidIcon className="mobile" />
+          <img alt="mobile: " />
+          <a href="r.ogrodowczyk87@gmail.com" className="footer-email">+44 7305736646</a>
+        </div>
       </div>
-    </div>
-    {!isFormSubmitted ? (
-      <div className="footer-form">
-        <div className="footer-flex">
-          <input className="p-text" type="text" placeholder="Your Name" name="name"
-            value={name} onChange={handleChangeInput}
-          />
+      {!isFormSubmitted ? (
+        <div className="footer-form">
+          <div className="footer-flex">
+            <input className="p-text" type="text" placeholder="Your Name" name="name"
+              value={name} onChange={handleChangeInput}
+            />
+          </div>
+          <div className="footer-flex">
+            <input className="p-text" type="text" placeholder="Your Email" name="email"
+              value={email} onChange={handleChangeInput}
+            />
+          </div>
+          <div>
+            <textarea
+              className="p-text"
+              placeholder="Your Message"
+              value={message}
+              name={message}
+              onChange={handleChangeInput}
+            />
+          </div>
+          <button className="p-text" type="button"
+            onClick={handleSubmit}
+          >{loading ? 'Sending' : 'Send Message'}</button>
         </div>
-        <div className="footer-flex">
-          <input className="p-text" type="text" placeholder="Your Email" name="email"
-            value={email} onChange={handleChangeInput}
-          />
-        </div>
-        <div>
-          <textarea
-            className="p-text"
-            placeholder="Your Message"
-            value={message}
-            name={message}
-            onChange={handleChangeInput}
-          />
-        </div>
-        <button className="p-text" type="button"
-          onClick={handleSubmit}
-        >{loading ? 'Sending' : 'Send Message'}</button>
+      ) : (<div>
+        <h3 className="head-text">Thank you for getting in touch</h3>
       </div>
-    ) : (<div>
-      <h3 className="head-text">Thank you for getting in touch</h3>
+      )}
     </div>
-    )}
   </div>;
 }
 

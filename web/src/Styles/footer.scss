@@ -6,29 +6,39 @@
     border-top: solid 2px black;
     background-color: var(--color-black);
 
-    .head-text {
+
+    .footer-text {
         margin-top: 48px;
-        font-size: 27px;
+        font-size: 37px;
     }
 
-    .email {
-        padding-right: 5px;
+
+    .footer-card {
+        // margin-top: 50px;
+
+        .footer-email {
+            color: var(--color-white);
+            font-size: 15px;
+        }
+
+        .email {
+            padding-right: 5px;
+        }
+
+        .mobile {
+            padding-right: 5px;
+        }
     }
 
-    .mobile {
-        padding-right: 5px;
-    }
 
-    .footer-email {
-        color: var(--color-white);
-        font-size: 15px;
-    }
 }
 
 
 .footer-form {
     margin-top: 20px;
+    // margin-left: 50px;
     cursor: pointer;
+
 
     input,
     textarea {
@@ -53,5 +63,23 @@
         margin-bottom: 20px;
         padding: 5px;
         border-radius: 5px;
+    }
+}
+
+
+
+@media only screen and (min-width: 900px) {
+    .footer-wrapper {
+        display: flex;
+        margin-top: 40px;
+    }
+
+    .footer-card {
+        margin-top: 50px;
+    }
+
+    .footer-form {
+        margin-top: 20px;
+        margin-left: 50px;
     }
 }
