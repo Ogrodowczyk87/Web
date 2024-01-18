@@ -12,7 +12,7 @@ function Education() {
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
                     date="2009 - 2012"
-                    iconStyle={{ background: 'red', color: '#fff' }}
+                    iconStyle={{ background: 'black', color: '#fff' }}
                     icon={<SchoolIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">GWSH Silesian Higher School of Economics, Wojciecha Korfantego in Katowicach
@@ -24,7 +24,7 @@ function Education() {
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
                     date="2022  - current"
-                    iconStyle={{ background: 'red', color: '#fff' }}
+                    iconStyle={{ background: 'black', color: '#fff' }}
                     icon={<SchoolIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">IT School GoIT, Full Stack Developer
@@ -36,7 +36,7 @@ function Education() {
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
                     date="20.09.2013 - 30.02.2015 "
-                    iconStyle={{ background: "#2156dc", color: '#fff' }}
+                    iconStyle={{ background: "black", color: '#fff' }}
                     icon={<WorkIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">Arla Hatfield - Warehouse Operative
@@ -45,7 +45,7 @@ function Education() {
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
                     date="30.02.2015 -  30.06.2021 "
-                    iconStyle={{ background: "#2156dc", color: '#fff' }}
+                    iconStyle={{ background: "black", color: '#fff' }}
                     icon={<WorkIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">NFT Distribution - Warehouseman
@@ -54,7 +54,7 @@ function Education() {
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
                     date="1.07.2021 - 15.09.2022 "
-                    iconStyle={{ background: "#2156dc", color: '#fff' }}
+                    iconStyle={{ background: "black", color: '#fff' }}
                     icon={<WorkIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">Euro Polymers Group – Roofer
@@ -73,7 +73,7 @@ function Education() {
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
                     date="20.09.2022 - current"
-                    iconStyle={{ background: "#2156dc", color: '#fff' }}
+                    iconStyle={{ background: "black", color: '#fff' }}
                     icon={<WorkIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">Amazon -  Warehouse Operative
@@ -87,7 +87,7 @@ function Education() {
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
                     date="30.09.2023 - current"
-                    iconStyle={{ background: "#2156dc", color: '#fff' }}
+                    iconStyle={{ background: "black", color: '#fff' }}
                     icon={<WorkIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">RYOBI
