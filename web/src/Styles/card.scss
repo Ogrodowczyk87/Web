@@ -1,0 +1,15 @@
+.card {
+    background-color: var(--frame-color);
+    padding: 25px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    .progress-picture {
+        width: 200px;
+        height: 200px;
+    }
+}
