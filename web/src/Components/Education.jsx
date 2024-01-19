@@ -8,7 +8,7 @@ import WorkIcon from '@mui/icons-material/Work';
 function Education() {
     return (
         <div className="education">
-            <VerticalTimeline lineColor="white" >
+            <VerticalTimeline lineColor="black" >
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
                     date="2009 - 2012"
