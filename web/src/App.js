@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
 
-      <PreLoader />
+      {/* <PreLoader /> */}
       <Router>
         <Navbar />
         <Routes>

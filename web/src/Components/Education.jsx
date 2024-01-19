@@ -8,13 +8,12 @@ import WorkIcon from '@mui/icons-material/Work';
 function Education() {
     return (
         <div className="education">
-            <VerticalTimeline lineColor="black" >
+            <VerticalTimeline lineColor="white" >
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
                     date="2009 - 2012"
                     iconStyle={{ background: 'black', color: '#fff' }}
-                    icon={<SchoolIcon />}
-                >
+                    icon={<SchoolIcon />}>
                     <h3 className="vertical-timeline-element-title">GWSH Silesian Higher School of Economics, Wojciecha Korfantego in Katowicach
                     </h3>
                     <p>
@@ -29,9 +28,10 @@ function Education() {
                 >
                     <h3 className="vertical-timeline-element-title">IT School GoIT, Full Stack Developer
                     </h3>
-                    <p>
+                    <p className="vertical-timeline-element-des">
                         Degree in International Relations
                     </p>
+
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
@@ -87,12 +87,12 @@ function Education() {
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
                     date="30.09.2023 - current"
-                    iconStyle={{ background: "black", color: '#fff' }}
+                    iconStyle={{ background: "", color: '#fff' }}
                     icon={<WorkIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">RYOBI
                     </h3>
-                    <p>Machine Operator</p>                    
+                    <p>Machine Operator</p>
                 </VerticalTimelineElement>
             </VerticalTimeline>
         </div>
@@ -100,3 +100,4 @@ function Education() {
 }
 
 export default Education;
+
