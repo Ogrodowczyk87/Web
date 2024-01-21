@@ -27,6 +27,9 @@ function App() {
         {/* <Home />
         <Projects />
         <Education /> */}
+        {/* <Home />
+        <Projects />
+        <Education /> */}
         <Footer />
       </Router>
 
