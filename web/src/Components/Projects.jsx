@@ -17,22 +17,22 @@ function Card() {
         {
             name: 'Ice Scream Shop',
             img: portret,
-            description: 'lorem10'
+            description: 'This page i collaborate with couple my friends, help me to understand how to share work with others peoples'
         },
         {
             name: 'Software house',
             img: portret,
-            description: 'lorem10'
+            description: 'My first page when I learn hwo to code I use pure HTML, SCSS and some JS'
         },
         {
             name: 'Film Service',
             img: portret,
-            description: 'lorem10'
+            description: 'I build this project to improve my JS skills'
         },
         {
             name: 'In progres',
             img: portret,
-            description: 'lorem10'
+            description: 'ln progres'
         }
     ]
     return <div className="projects">
@@ -48,9 +48,13 @@ function Card() {
                             <img className="projects-image" src={data.img} alt="" />
                         </div>
                         <div className="card-description">
-                            <p>{data.name}</p>
-                            <p>{data.description}</p>
-                            <button>Git hub</button>
+                            <div className="description-container">
+                                <p className="name">{data.name}</p>
+                                <p className="description">{data.description}</p>
+                            </div>
+                            <div className="button-wrapper">
+                                <button className="button">Git hub</button>
+                            </div>
                         </div>
                     </div>
                 ))}

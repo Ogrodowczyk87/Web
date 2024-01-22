@@ -4,6 +4,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(189, 205, 189);
+    border-radius: 12%;
 
     // justify-content: center;
     // align-items: center;
@@ -22,6 +24,7 @@
     .cards-wrapper {
         height: 450px;
         width: 750px;
+      
     }
 
     .card-container {
@@ -43,10 +46,29 @@
         }
 
         .card-description {
+
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            padding-inline: 20px;
+            .description-container{
+                margin-bottom: 20px;
+            }
+            .name {
+                margin-top: 20px;
+            }
+
+            .description {
+                margin-top: 25px;
+                height: 109px;
+            }
+
+            .button-wrapper {
+               
+                display: flex;
+                align-items: center;
+            }
         }
     }
 
