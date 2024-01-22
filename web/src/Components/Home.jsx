@@ -1,5 +1,5 @@
 import React from "react";
-import portret from "../Assets/Images/my-image.jpg"
+import avatar from "../Assets/Images/avatar.jpg"
 
 function Home() {
     return <div className="home_wrapper">
@@ -11,7 +11,7 @@ function Home() {
             </div>
         </div>
         <div className="home_picture">
-            <img className="picture" src={portret} alt="portret" />
+            <img className="picture" src={avatar} alt="portret" />
         </div>
     </div>;
 }
