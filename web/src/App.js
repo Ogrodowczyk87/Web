@@ -20,14 +20,16 @@ function App() {
       {/* <PreLoader /> */}
       <Router>
         <Navbar />
-        <Routes>
+        {/* <Routes>
           <Route path="/" element={<Home />} />
+          <Route path='aboutMe' element={<AboutMe />} />
           <Route path="/education" element={<Education />} />
           <Route path="/projects" element={<Projects />} />
-        </Routes>
+        </Routes> */}
         {/* <Home />
         <Projects />
         <Education /> */}
+        <Home />
         <AboutMe />
         <Projects />
         <Education />

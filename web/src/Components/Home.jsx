@@ -12,6 +12,8 @@ function Home() {
         { clamp: false }
     )
 
+
+
     return <div className="home_wrapper">
         <div className="home">
             <motion.div className="home_svg"
