@@ -4,7 +4,6 @@
   flex-direction: column;
   width: 100%;
   height: 100%;
-  font-family: Lora-Italic;
 
 }
 
@@ -16,4 +15,9 @@ body {
 
 .slick-slide>div {
   margin: 0 10px;
+}
+
+@font-face {
+  font-family: "Work Sans", sans-serif;
+  src: url(./Assets/Fonts/WorkSans-VariableFont_wght.ttf);
 }

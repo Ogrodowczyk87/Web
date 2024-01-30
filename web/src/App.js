@@ -10,6 +10,7 @@ import Education from './Components/Education';
 
 import './main.scss'
 import Footer from './Components/Footer';
+import AboutMe from './Components/AboutMe';
 
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
         {/* <Home />
         <Projects />
         <Education /> */}
-        
+        <AboutMe />
         <Projects />
         <Education />
         <Footer />

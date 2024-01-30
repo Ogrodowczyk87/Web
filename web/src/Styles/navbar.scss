@@ -14,7 +14,7 @@
         color: var(--color-white);
 
         a {
-            font-weight: 700;
+            font-family: "Work Sans", sans-serif;
             color: var(--color-white);
             text-decoration: none;
             margin: 20px;
@@ -39,8 +39,8 @@
         margin-right: 20px;
         background-color: transparent;
         border-radius: 25px;
-        border: solid 3px white;
-        color: rgb(215, 31, 31);
+        border: solid 3px;
+        color: var(--color-white);
         cursor: pointer;
     }
 }

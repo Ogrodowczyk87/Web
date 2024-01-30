@@ -1,121 +1,31 @@
 .home_wrapper {
-    justify-content: center;
-    align-items: center;
-    background-color: var(--color-black);
+    height: 100vh;
     width: 100%;
-    height: 100%;
+    background-color: rgb(241, 193, 166);
 
-    .home {
-        display: flex;
-        align-items: center;
-        height: 100%;
-        margin-block: 50px;
-        color: var(--color-white);
-
-
-
-        .home_description {
-            margin-inline: auto;
-            margin-bottom: 20px;
-            background-color: #0c0c0c;
-            padding: 12px;
-            border-radius: 20px;
-        }
-
-
-
-        .home_span {
-            color: orange;
-        }
-
-    }
-
-    .picture {
-        margin: auto;
-        margin-bottom: 50px;
-        border-radius: 6%;
-        // filter: grayscale(100%);
-
-        z-index: 1;
-        animation-name: floating;
-        animation-duration: 3s;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease-in-out;
-    }
-}
-
-//? Home picture animation
-
-@keyframes floating {
-    0% {
-        transform: translate(0, 0px);
-    }
-
-    50% {
-        transform: translate(0, 10px);
-    }
-
-    100% {
-        transform: translate(0, -0px);
-    }
-}
-
-@media only screen and (min-width: 300px) {
-    .picture {
-        height: 250px;
-        width: 250px;
-    }
-
-}
-
-@media only screen and (min-width: 600px) {
-    .picture {
-        height: 500px;
-        width: 500px;
-    }
-
-}
-
-@media only screen and (min-width: 900px) {
-    .home_wrapper {
-        display: flex;
-        // margin-top: 80px;
-
-        .home_picture {
-            margin-left: 50px;
-
-            .picture {
-                margin-right: 50px;
-            }
-        }
-    }
-}
-
-
-
-
-@media only screen and (min-width: 1200px) {
-
-
-    .home_picture {
-        margin-left: 150px;
-
-        .picture {
-            height: 500px;
-            width: 500px;
-            margin-left: 80px;
-        }
+    .home_svg {
+        height: 200px;
+        width: 200px;
+        margin-inline: auto;
+        margin-top: 50px;
     }
 
     .home_title {
-        font-size: 120px;
+        font-size: 114px;
+        margin-top: 70px;
+        font-family: "Work Sans", sans-serif;
     }
 
-    .home_my-name {
-        font-size: 50px;
+    .home_myName {
+        margin-top: 15px;
+        font-size: 45px;
+        font-family: "Work Sans", sans-serif;
     }
 
     .home_description {
+        margin-top: 55px;
         font-size: 40px;
+        font-family: "Work Sans", sans-serif;
     }
+
 }
