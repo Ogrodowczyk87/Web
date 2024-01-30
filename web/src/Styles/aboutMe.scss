@@ -1,4 +1,14 @@
-.AboutMe_container {
+.aboutMe_container {
     height: 100vh;
-    background-color: grey;
+
+    .aboutMe_title {
+        margin-top: 35px;
+        margin-bottom: 25px;
+    }
+
+    .picture {
+        margin-inline: auto;
+        height: 270px;
+        width: 270px;
+    }
 }
