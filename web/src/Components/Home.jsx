@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import github from '../Assets/Images/github.svg'
 import { motion, useTime, useTransform, } from "framer-motion"
+import arrow from "../Assets/Images/arrow.png"
 
 function Home() {
 
@@ -16,7 +17,7 @@ function Home() {
 
     return <div className="home_wrapper" ref={parentRef}>
         <div className="home" >
-            //! drag item don't work
+            {/* //! drag item don't work */}
             <motion.div className="home_svg"
                 drag
                 dragConstraints={parentRef}
@@ -24,8 +25,13 @@ function Home() {
                 style={{ rotate }}
             >
                 <a href="https://github.com/Ogrodowczyk87" target="_blank" >
-                    <img src={github} alt="Coding Beauty logo"></img>
+                    <img className="home__svgIcon" src={github} alt="Coding Beauty logo"></img>
                 </a>
+                {/* //!mike arrowin saperate div? */}
+                <div className="home_arrow">
+                    <img src={arrow} />
+                    <p>DRAG ME!</p>
+                </div>
             </motion.div>
             <div className="home_description">
                 <h1 className="home_title">Hello </h1>

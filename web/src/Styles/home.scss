@@ -3,10 +3,12 @@
     width: 100%;
     // background-color: rgb(241, 193, 166);
     // background-image: url("https://images.unsplash.com/photo-1556767230-449a4049ba05?q=80&w=1934&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    background-image: url("https://img.freepik.com/free-vector/night-cityscape-background-moonlit-urban-park_107791-16787.jpg?w=1380&t=st=1706802197~exp=1706802797~hmac=fd727170835a3960953ac0494b34bfc5907efd83b410eb7e3d03c0af267c97bd");
+    // background-image: url("https://img.freepik.com/free-vector/night-cityscape-background-moonlit-urban-park_107791-16787.jpg?w=1380&t=st=1706802197~exp=1706802797~hmac=fd727170835a3960953ac0494b34bfc5907efd83b410eb7e3d03c0af267c97bd");
+    background-image: url("../Assets/Images/v760-toon-50.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 900px;
+    color: var(--color-white);
 
     .home_svg {
         height: 200px;
@@ -35,5 +37,38 @@
         font-family: "Work Sans", sans-serif;
         font-weight: 500;
     }
+}
+
+// properties sbg for 1200px
+// margin-left: 75%;
+// margin-top: 80px;
+// color: var(--color-white);
+
+@media only screen and (min-width: 1200px) {
+
+    .home_wrapper {
+        color: var(--color-white);
+
+        .home_svg {
+            margin-left: 75%;
+            margin-top: 180px;
+
+        }
+
+        .home_arrow {
+            display: flex;
+            justify-content: end;
+            margin-right: 150px;
+            padding: 80px;
+            height: 200px;
+            width: 200px;
+            transform: rotate(90deg);
+
+            .p {
+                font-size: 80px;
+            }
+        }
+    }
+
 
 }
