@@ -27,7 +27,6 @@ function Home() {
                 <a href="https://github.com/Ogrodowczyk87" target="_blank" >
                     <img className="home__svgIcon" src={github} alt="Coding Beauty logo"></img>
                 </a>
-                {/* //!mike arrowin saperate div? */}
                 <div className="home_arrow">
                     <img src={arrow} />
                     <p>DRAG ME!</p>
