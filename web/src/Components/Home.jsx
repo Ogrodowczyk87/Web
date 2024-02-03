@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useRef } from "react";
 import github from '../Assets/Images/github.svg'
-import { motion, useTime, useTransform } from "framer-motion"
+import { motion, useTime, useTransform, } from "framer-motion"
 
 function Home() {
 
@@ -12,11 +12,15 @@ function Home() {
         { clamp: false }
     )
 
+    const parentRef = useRef()
 
-
-    return <div className="home_wrapper">
-        <div className="home">
+    return <div className="home_wrapper" ref={parentRef}>
+        <div className="home" >
+            //! drag item don't work
             <motion.div className="home_svg"
+                drag
+                dragConstraints={parentRef}
+                dragElastic={0.7}
                 style={{ rotate }}
             >
                 <a href="https://github.com/Ogrodowczyk87" target="_blank" >
