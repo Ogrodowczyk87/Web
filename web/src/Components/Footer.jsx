@@ -36,9 +36,8 @@ function Footer() {
   }
 
   return <div className="footer-cards">
-    <h2 className="footer-text">Take A Coffee & Chat with Me</h2>
     <div className="footer-wrapper">
-
+      <h2 className="footer-text">Take A Coffee & Chat with Me</h2>
 
       <div className="footer-card">
         <AlternateEmailIcon className="email" />

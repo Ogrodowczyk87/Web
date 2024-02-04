@@ -9,6 +9,8 @@
     border-top: var(--color-white) solid 2px;
 
     .footer-wrapper {
+        display: flex;
+        flex-direction: column;
         background-color: #0c0c0c;
         padding: 25px;
         border-radius: 20px;
@@ -68,7 +70,7 @@
     }
 
     textarea {
-        height: 170px;
+        height: 90px;
         width: 100%;
         font-size: 20px;
     }

@@ -1,0 +1,44 @@
+.footer_container {
+
+    background-color: rgb(18, 23, 28);
+    width: 100%;
+    color: var(--color-white);
+
+    .footer_title {
+        margin-top: 25px;
+        font-family: "Work Sans", sans-serif;
+    }
+
+    .footer_form {
+        display: flex;
+        flex-direction: column;
+        margin-inline: auto;
+        width: 100px;
+
+        .footer_label {
+            font-size: 35px;
+            margin-top: 15px;
+            margin-bottom: 2px;
+        }
+    }
+
+    .textarea_wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100px;
+
+        .footer_input {
+            padding-inline: 31px;
+            padding-block: 11px;
+            border: solid 3px white;
+            border-radius: 25px;
+            background-color: rgb(18, 23, 28);
+            color: var(--color-white);
+            font-family: "Work Sans", sans-serif;
+            font-size: 25px;
+            font-weight: 600;
+            margin: 20px;
+        }
+    }
+}

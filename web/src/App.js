@@ -9,8 +9,9 @@ import Navbar from './Components/Navbar';
 import Education from './Components/Education';
 
 import './main.scss'
-import Footer from './Components/Footer';
+// import Footer from './Components/Footer';
 import AboutMe from './Components/AboutMe';
+import  ContactMe  from './Components/ContactMe';
 
 
 function App() {
@@ -33,7 +34,8 @@ function App() {
         <AboutMe />
         <Projects />
         <Education /> */}
-        <Footer />
+        {/* <Footer /> */}
+        <ContactMe />
       </Router>
 
     </div>

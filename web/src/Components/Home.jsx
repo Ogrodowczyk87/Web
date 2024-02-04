@@ -34,17 +34,17 @@ function Home() {
             </motion.div>
             <div className="home_description">
                 <motion.h1 className="home_title"
-                    initial={{ y: -750 }}
+                    initial={{ y: -950 }}
                     animate={{ y: -10 }}
                     transition={{ delay: 0.6 }}
                 >Hello </motion.h1>
                 <motion.p className="home_myName"
-                    initial={{ y: -750 }}
+                    initial={{ y: -950 }}
                     animate={{ y: -10 }}
                     transition={{ delay: 0.8 }}
                 >  I'm Rafal Ogrodowczyk</motion.p>
                 <motion.p className="home_description"
-                    initial={{ y: -750 }}
+                    initial={{ y: -950 }}
                     animate={{ y: -10 }}
                     transition={{ delay: 1 }}
 
