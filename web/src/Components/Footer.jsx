@@ -36,7 +36,7 @@ function Footer() {
   }
 
   return <div className="footer-cards">
-    <h2 className="footer-text">Take A Coffe & Chat with Me</h2>
+    <h2 className="footer-text">Take A Coffee & Chat with Me</h2>
     <div className="footer-wrapper">
 
 

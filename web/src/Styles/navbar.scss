@@ -14,15 +14,22 @@
         justify-content: center;
         color: var(--color-white);
 
-        a {
-            font-family: "Work Sans", sans-serif;
+        .nav_button {
+            padding-inline: 31px;
+            padding-block: 11px;
+            border: solid 3px white;
+            border-radius: 25px;
+            background-color: rgb(18, 23, 28);
             color: var(--color-white);
-            text-decoration: none;
-            margin: 20px;
+            font-family: "Work Sans", sans-serif;
             font-size: 25px;
+            font-weight: 600;
+            margin: 20px;
         }
-    }
 
+
+
+    }
 }
 
 .toggleButton {

@@ -15,8 +15,8 @@ function Home() {
 
     const parentRef = useRef()
 
-    return <div className="home_wrapper" ref={parentRef}>
-        <div className="home" >
+    return <div className="home_wrapper" >
+        <div className="home" ref={parentRef} >
             {/* //! drag item don't work */}
             <motion.div className="home_svg"
                 drag
@@ -33,9 +33,22 @@ function Home() {
                 </div>
             </motion.div>
             <div className="home_description">
-                <h1 className="home_title">Hello </h1>
-                <p className="home_myName">  I'm Rafal Ogrodowczyk</p>
-                <p className="home_description"><span className="home_span">Junior Front End Developer</span></p>
+                <motion.h1 className="home_title"
+                    initial={{ y: -750 }}
+                    animate={{ y: -10 }}
+                    transition={{ delay: 0.6 }}
+                >Hello </motion.h1>
+                <motion.p className="home_myName"
+                    initial={{ y: -750 }}
+                    animate={{ y: -10 }}
+                    transition={{ delay: 0.8 }}
+                >  I'm Rafal Ogrodowczyk</motion.p>
+                <motion.p className="home_description"
+                    initial={{ y: -750 }}
+                    animate={{ y: -10 }}
+                    transition={{ delay: 1 }}
+
+                ><span className="home_span">Junior Front End Developer</span></motion.p>
             </div>
         </div>
 

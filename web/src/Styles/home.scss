@@ -18,6 +18,10 @@
         margin-top: 50px;
     }
 
+    // .home_arrow {
+    //     display: none;
+    // }
+
     .home_title {
         font-size: 114px;
         margin-top: 70px;
@@ -45,6 +49,11 @@
 // margin-top: 80px;
 // color: var(--color-white);
 
+// @media only screen and (min-width: 600px) {
+//     .home_arrow{
+//         display: flex;
+//     }
+// }
 @media only screen and (min-width: 1200px) {
 
     .home_wrapper {
