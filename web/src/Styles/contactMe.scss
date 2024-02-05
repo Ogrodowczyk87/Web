@@ -6,6 +6,8 @@
 
     .footer_title {
         margin-top: 25px;
+        font-size: 20px;
+        font-weight: 600;
         font-family: "Work Sans", sans-serif;
     }
 
@@ -14,6 +16,10 @@
         flex-direction: column;
         margin-inline: auto;
         width: 100px;
+
+        .footer_input {
+            border-radius: 20px;
+        }
 
         .footer_label {
             font-size: 35px;
@@ -27,6 +33,10 @@
         flex-direction: column;
         align-items: center;
         width: 100px;
+
+        .footer_textarea {
+            border-radius: 20px;
+        }
 
         .footer_input {
             padding-inline: 31px;

@@ -43,7 +43,7 @@ function Home() {
                     animate={{ y: -10 }}
                     transition={{ delay: 0.8 }}
                 >  I'm Rafal Ogrodowczyk</motion.p>
-                <motion.p className="home_description"
+                <motion.p className="title_description"
                     initial={{ y: -950 }}
                     animate={{ y: -10 }}
                     transition={{ delay: 1 }}

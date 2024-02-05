@@ -23,16 +23,16 @@ const ContactMe = () => {
                 <label className='footer_label'>
                     Name
                 </label>
-                <input type="text" name="from_name" />
+                <input className="footer_input" type="text" name="from_name" />
                 <label className='footer_label'>
                     Email
                 </label>
-                <input type="email" name="from_email" />
+                <input className="footer_input" type="email" name="from_email" />
                 <div className='textarea_wrapper'>
                     <label className='footer_label'>
                         Message
                     </label>
-                    <textarea name="message" />
+                    <textarea className="footer_textarea" name="message" />
                     <motion.input className='footer_input' type="submit" value="Send"
                         whileHover={{
                             scale: 1.1,

@@ -12,16 +12,21 @@
     border-top: solid 2px var(--color-white);
     border-bottom: solid 2px var(--color-white);
 
-    .home_svg {
-        height: 200px;
-        width: 200px;
-        margin-inline: auto;
-        margin-top: 50px;
+    .home_description {
+        margin-top: 350px;
     }
 
-    // .home_arrow {
-    //     display: none;
-    // }
+    .home_svg {
+        height: 120px;
+        width: 120px;
+        margin-inline: auto;
+        margin-top: 100px;
+    }
+
+    .home_arrow {
+        height: 50px;
+        width: 50px;
+    }
 
     .home_title {
         font-size: 114px;
@@ -37,7 +42,7 @@
         font-weight: 570;
     }
 
-    .home_description {
+    .title_description {
         margin-top: 55px;
         font-size: 40px;
         font-family: "Work Sans", sans-serif;
