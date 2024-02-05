@@ -1,7 +1,8 @@
 .aboutMe_container {
     height: 100vh;
     background-color: rgb(18, 23, 28);
-
+    border-top: solid 2px var(--color-white);
+    border-bottom: solid 2px var(--color-white);
 
     .aboutMe_title {
         margin-top: 35px;

@@ -9,6 +9,8 @@
     background-size: cover;
     color: var(--color-white);
     overflow-x: hidden;
+    border-top: solid 2px var(--color-white);
+    border-bottom: solid 2px var(--color-white);
 
     .home_svg {
         height: 200px;

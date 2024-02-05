@@ -1,18 +1,19 @@
 .education {
     // background-color: var(--color-black);
-    background-color: rgba(130, 71, 128, 0.393);
+    background-color: rgb(18, 23, 28);
     color: var(--color-white);
-
+    border-top: solid 2px var(--color-white);
+    border-bottom: solid 2px var(--color-white);
 
     .vertical-timeline-element-content {
         // background-color: var(--frame-color);
         background-color: rgb(54, 54, 125);
-    
+
     }
 }
 
 .vertical-element-wrapper {
-//   background-color: var(--frame-color);
+    //   background-color: var(--frame-color);
     color: white;
 
 }

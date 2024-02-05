@@ -7,11 +7,13 @@ import Home from './Components/Home';
 import Projects from './Components/Projects';
 import Navbar from './Components/Navbar';
 import Education from './Components/Education';
+import NotFound from './Components/NotFound';
+
 
 import './main.scss'
 // import Footer from './Components/Footer';
 import AboutMe from './Components/AboutMe';
-import  ContactMe  from './Components/ContactMe';
+import ContactMe from './Components/ContactMe';
 
 
 function App() {
@@ -22,18 +24,19 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route index element={<Home />} />
           <Route path='aboutMe' element={<AboutMe />} />
           <Route path="/education" element={<Education />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/*" element={<NotFound />} />
         </Routes>
         {/* <Home />
         <Projects />
         <Education /> */}
-        {/* <Home />
-        <AboutMe />
+
+        {/* <AboutMe />
         <Projects />
-        <Education /> */}
+        <Education />  */}
         {/* <Footer /> */}
         <ContactMe />
       </Router>
