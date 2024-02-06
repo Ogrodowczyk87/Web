@@ -87,7 +87,7 @@ function Education() {
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
                     date="30.09.2023 - current"
-                    iconStyle={{ background: "rgb(35, 44, 54)", color: '#fff' }}
+                    iconStyle={{ background: "red", color: '#fff' }}
                     icon={<WorkIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">RYOBI
