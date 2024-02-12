@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom"
 import MenuIcon from '@mui/icons-material/Menu'
 import { motion } from 'framer-motion'
+import AboutMe from "./AboutMe";
 
 function Navbar() {
 
@@ -26,7 +27,7 @@ function Navbar() {
                     Home
                 </motion.button>
             </Link>
-            <Link to="/aboutME">
+            <Link to="/aboutMe">
                 <motion.button className="nav_button"
                     whileHover={{
                         scale: 1.1,

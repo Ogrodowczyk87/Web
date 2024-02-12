@@ -22,22 +22,19 @@ function App() {
 
       {/* <PreLoader /> */}
       <Router>
+        {/* //! Naprawic nawigacje */}
         <Navbar />
-        <Routes>
+        {/* <Routes>
           <Route index element={<Home />} />
           <Route path='aboutMe' element={<AboutMe />} />
           <Route path="/education" element={<Education />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/*" element={<NotFound />} />
-        </Routes>
-        {/* <Home />
+        </Routes> */}
+        <Home />
+        <AboutMe />
         <Projects />
-        <Education /> */}
-
-        {/* <AboutMe />
-        <Projects />
-        <Education />  */}
-        {/* <Footer /> */}
+        <Education />
         <ContactMe />
       </Router>
 
