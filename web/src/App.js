@@ -25,20 +25,39 @@ function App() {
         {/* //! Naprawic nawigacje */}
         <Navbar />
         <Routes>
-          <Route index element={<Home />} />
-          <Route path='/aboutMe' element={<AboutMe />} />
-          <Route path="/education" element={<Education />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/*" element={<NotFound />} />
+          <Route index element={
+            <>
+              <Home />
+              <AboutMe />
+              <Education />
+              <Projects />
+            </>
+          } />
         </Routes>
+        <Routes>
+          <Route path='/aboutMe' element={<AboutMe />} />
+        </Routes>
+        <Routes>
+          <Route path="/education" element={<Education />} />
+        </Routes>
+        <Routes>
+          <Route path="/projects" element={<Projects />} />
+        </Routes>
+        <Routes>
+          <Route path="/contactMe" element={<ContactMe />} />
+        </Routes>
+
+        {/* <Route path="/*" element={<NotFound />} /> */}
+
+
         <ContactMe />
 
 
 
-       
+
       </Router>
 
-    </div>
+    </div >
   );
 }
 
