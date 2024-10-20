@@ -18,7 +18,7 @@ function AboutMe() {
                     </div>
 
                     <div>
-                        <h3 className="aboutMe_MyName">Rafal Ogrodowczyk</h3>
+                        {/* <h3 className="aboutMe_MyName">Rafal Ogrodowczyk</h3> */}
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, cum libero in
                             possimus nesciunt quos quas similique. Atque,
                             rem excepturiLorem ipsum, dolor sit amet consectetur
